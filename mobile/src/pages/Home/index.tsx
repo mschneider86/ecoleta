@@ -14,7 +14,7 @@ import { useNavigation } from "@react-navigation/native";
 import PickerSelect from "react-native-picker-select";
 import axios from "axios";
 
-import styles from "./styles";
+import styles, { pickerSelectStyles } from "./styles";
 
 interface IBGEUFResponse {
   sigla: string;
@@ -106,22 +106,48 @@ const Home = () => {
         </View>
 
         <View style={styles.footer}>
-          <TextInput
-            style={styles.input}
-            placeholder="Digite a UF"
-            value={uf}
-            maxLength={2}
-            autoCapitalize="characters"
-            autoCorrect={false}
-            onChangeText={setUf}
+          <PickerSelect
+            placeholder={{
+              label: "Selecione a UF",
+              value: null,
+            }}
+            style={{
+              ...pickerSelectStyles,
+              iconContainer: {
+                top: 20,
+                right: 10,
+              },
+              placeholder: {
+                color: "#888",
+              },
+            }}
+            Icon={() => <Icon name="arrow-down" size={20} color="#34CB79" />}
+            onValueChange={(value) => setUf(value)}
+            items={ufs}
+            useNativeAndroidPickerStyle={Platform.OS === "android"}
           />
-          <TextInput
-            style={styles.input}
-            placeholder="Digite a Cidade"
-            value={city}
-            autoCorrect={false}
-            onChangeText={setCity}
+
+          <PickerSelect
+            placeholder={{
+              label: "Selecione uma Cidade",
+              value: null,
+            }}
+            style={{
+              ...pickerSelectStyles,
+              iconContainer: {
+                top: 20,
+                right: 10,
+              },
+              placeholder: {
+                color: "#888",
+              },
+            }}
+            Icon={() => <Icon name="arrow-down" size={20} color="#34CB79" />}
+            onValueChange={(value) => setCity(value)}
+            items={cities}
+            useNativeAndroidPickerStyle={Platform.OS === "android"}
           />
+
           <RectButton style={styles.button} onPress={handleNavigateToPoints}>
             <View style={styles.buttonIcon}>
               <Text>

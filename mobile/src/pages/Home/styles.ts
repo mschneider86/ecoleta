@@ -75,4 +75,26 @@ const styles = StyleSheet.create({
   },
 });
 
+export const pickerSelectStyles = StyleSheet.create({
+  inputIOS: {
+    backgroundColor: "#FFF",
+    borderRadius: 10,
+    marginBottom: 8,
+    paddingHorizontal: 24,
+    fontSize: 16,
+    borderWidth: 1,
+    borderColor: "#34CB79",
+    height: 60,
+  },
+  inputAndroid: {
+    backgroundColor: "#FFF",
+    borderRadius: 10,
+    marginBottom: 8,
+    paddingHorizontal: 24,
+    fontSize: 16,
+    borderWidth: 1,
+    borderColor: "#34CB79",
+    height: 60,
+  },
+});
 export default styles;
