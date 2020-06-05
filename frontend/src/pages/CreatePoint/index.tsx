@@ -7,7 +7,7 @@ import axios from "axios";
 
 import "./styles.css";
 import logo from "../../assets/logo.svg";
-import { LeafletMouseEvent } from "leaflet";
+import Leaflet, { LeafletMouseEvent } from "leaflet";
 
 interface Item {
   id: string;
@@ -22,6 +22,12 @@ interface IBGEUFResponse {
 interface IBGECityResponse {
   nome: string;
 }
+
+const image = new Leaflet.Icon({
+  iconUrl: require("../../assets/map-pin.svg"),
+  iconSize: [32, 32],
+  iconAnchor: [20, 32],
+});
 
 const CreatePoint = () => {
   const [items, setItems] = useState<Item[]>([]);
@@ -146,9 +152,7 @@ const CreatePoint = () => {
 
     await api.post("points", data);
 
-    alert("Cadstro concluído!");
-
-    history.push("/");
+    history.push("/success");
   }
 
   return (
@@ -217,7 +221,7 @@ const CreatePoint = () => {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
 
-            <Marker position={selectedPosition} />
+            <Marker position={selectedPosition} icon={image} />
           </Map>
           <div className="field-group">
             <div className="field">
