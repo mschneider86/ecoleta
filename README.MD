@@ -81,7 +81,7 @@ E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualst
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/ialexanderbrito/ecoleta
+$ git clone https://github.com/mschneider86/ecoleta
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd ecoleta
@@ -102,7 +102,7 @@ $ npm run dev:server ou yarn dev
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/ialexanderbrito/ecoleta
+$ git clone https://github.com/mschneider86/ecoleta
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd ecoleta
@@ -123,7 +123,7 @@ $ npm start ou yarn start
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/ialexanderbrito/ecoleta
+$ git clone https://github.com/mschneider86/ecoleta
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd ...
