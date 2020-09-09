@@ -20,8 +20,8 @@
 </p>
 
 <p >
-  <img alt="Frontend" src="github_assets/web.gif" width="600px" height="400px">
-  <img alt="Mobile" style="margin-left:10px" src="github_assets/mobile.gif" width="246px" height="400px">
+  <img alt="Frontend" src="github_assets/web.gif" width="580px" height="380px">
+  <img alt="Mobile" style="margin-left:10px" src="github_assets/mobile.gif" width="226px" height="380px">
 </p>
 
 ### :rocket: Tecnologias usadas
