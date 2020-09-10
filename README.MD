@@ -24,6 +24,10 @@
   <img alt="Mobile" style="margin-left:10px" src="github_assets/mobile.gif" width="226px" height="380px">
 </p>
 
+### 💻 Projeto
+
+<b>Ecoleta</b> é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
+
 ### :rocket: Tecnologias usadas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -47,15 +51,12 @@ Extras:
   - [Picker Select](https://github.com/lawnstarter/react-native-picker-select)
   - [Multer](https://github.com/expressjs/multer)
   - [Celebrate](https://github.com/arb/celebrate)
-- Estilos
-
+  
+- Styles
   - [EditorConfig](https://editorconfig.org/)
   - [ESLint](https://eslint.org/)
   - [Prettier](https://prettier.io/)
 
-### 💻 Projeto
-
-<b>Ecoleta</b> é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
 
 ### ⚙ Como rodar este projeto
 
@@ -139,3 +140,10 @@ $ expo start
 
 # A aplicação será aberta no navegador basta acessar via QR Code pelo celular
 ```
+
+## 🤔 How to contribute
+
+- Fork this repo;
+- Create a branch with your feature: 'git checkout -b my-feature';
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: 'git push origin my-feature'.
