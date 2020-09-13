@@ -1,6 +1,6 @@
 <h4 align="center">
 <img src="github_assets/logo.png" width="250px" /><br>
- <b>Coleta de resíduos orgânicos e inorgânicos</b> ♻️🔋
+ <b>Collect of organic and inorganic residue</b> ♻️🔋
 </h4>
 
 <p align="center">
@@ -26,11 +26,11 @@
 
 ### 💻 Projeto
 
-<b>Ecoleta</b> é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
+<b>Ecoleta</b> It's a way to connect companies and organic and inorganic residue collect entities to the people that need to dispose of their residue in an environment friendly way.
 
-### :rocket: Tecnologias usadas
+## :rocket: Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [Expo](https://expo.io/)
@@ -58,87 +58,75 @@ Extras:
   - [Prettier](https://prettier.io/)
 
 
-### ⚙ Como rodar este projeto
-
-Podemos considerar este projeto como sendo divido em três partes:
-
-1. Backend
-2. Frontend
-3. Mobile
-
-<b>💡 Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.</b>
-
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Before you begin, you need to have installed the following tools:
 
 <b>[Git](https://git-scm.com)</b>
 
 <b>[Node.js](https://nodejs.org/en/)</b>
 
-E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
 
-### 🧭 Rodando o Backend
+### 🧭 Running the Backend
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/mschneider86/ecoleta
+# Clone this repository
+$ git clone https://github.com/mschneider86/be-the-hero
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd ecoleta
+# Access the project folder on terminal/prompt
+$ cd be-the-hero
 
-# Vá para a pasta Backend
+# Go to backend folder
 $ cd backend
 
-# Instale as dependências
+# Install the dependencies
 $ npm install ou yarn add
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server ou yarn dev
+# Execute the application on dev mode
+$ npm run dev ou yarn dev
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333
+# The server will start on port:3333 - access it on http://localhost:3333
 ```
 
-### 🧭 Rodando o Frontend
+### 🧭 Running the Frontend
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/mschneider86/ecoleta
+# Clone this repository
+$ git clone https://github.com/mschneider86/be-the-hero
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd ecoleta
+# Access the project folder on terminal/prompt
+$ cd be-the-hero
 
-# Vá para a pasta da aplicação FrontEnd
+# Go to frontend folder
 $ cd frontend
 
-# Instale as dependências
+# Install the dependencies
 $ npm install ou yarn add
 
-# Execute a aplicação
+# Execute the application
 $ npm start ou yarn start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# The app will start on port:3000 - access it on http://localhost:3000
 ```
 
-### 🧭 Rodando o Mobile
+### 🧭 Running the Mobile
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/mschneider86/ecoleta
+# Clone this repository
+$ git clone https://github.com/mschneider86/be-the-hero
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd ...
+# Access the project folder on terminal/prompt
+$ cd be-the-hero
 
-# Vá para a pasta da aplicação Mobile
+# Go to Mobile folder 
 $ cd mobile
 
-# Instale as dependências
-$ npm install ou yarn
+# Install the dependencies
+$ npm install ou yarn add
 
-# Execute a aplicação
+# Start the app
 $ expo start
 
-# A aplicação será aberta no navegador basta acessar via QR Code pelo celular
 ```
 
 ## 🤔 How to contribute
