@@ -24,7 +24,7 @@
   <img alt="Mobile" style="margin-left:10px" src="github_assets/mobile.gif" width="226px" height="380px">
 </p>
 
-### 💻 Projeto
+### 💻 Project
 
 <b>Ecoleta</b> It's a way to connect companies and organic and inorganic residue collect entities to the people that need to dispose of their residue in an environment friendly way.
 
@@ -58,7 +58,7 @@ Extras:
   - [Prettier](https://prettier.io/)
 
 
-### Pré-requisitos
+### Prerequisites
 
 Before you begin, you need to have installed the following tools:
 
@@ -71,7 +71,7 @@ Before you begin, you need to have installed the following tools:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/mschneider86/be-the-hero
+$ git clone https://github.com/mschneider86/ecoleta
 
 # Access the project folder on terminal/prompt
 $ cd be-the-hero
@@ -92,7 +92,7 @@ $ npm run dev ou yarn dev
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/mschneider86/be-the-hero
+$ git clone https://github.com/mschneider86/ecoleta
 
 # Access the project folder on terminal/prompt
 $ cd be-the-hero
@@ -113,7 +113,7 @@ $ npm start ou yarn start
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/mschneider86/be-the-hero
+$ git clone https://github.com/mschneider86/ecoleta
 
 # Access the project folder on terminal/prompt
 $ cd be-the-hero
