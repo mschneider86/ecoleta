@@ -74,7 +74,7 @@ Before you begin, you need to have installed the following tools:
 $ git clone https://github.com/mschneider86/ecoleta
 
 # Access the project folder on terminal/prompt
-$ cd be-the-hero
+$ cd ecoleta
 
 # Go to backend folder
 $ cd backend
@@ -95,7 +95,7 @@ $ npm run dev ou yarn dev
 $ git clone https://github.com/mschneider86/ecoleta
 
 # Access the project folder on terminal/prompt
-$ cd be-the-hero
+$ cd ecoleta
 
 # Go to frontend folder
 $ cd frontend
@@ -116,7 +116,7 @@ $ npm start ou yarn start
 $ git clone https://github.com/mschneider86/ecoleta
 
 # Access the project folder on terminal/prompt
-$ cd be-the-hero
+$ cd ecoleta
 
 # Go to Mobile folder 
 $ cd mobile
